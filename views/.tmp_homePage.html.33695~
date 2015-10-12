@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html ng-app>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Home Page</title>
+		<script src="../assets/angular/angular.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../assets/css/homePage.css">
+		<h1 class="home-header"> Tell me what to read!</h1>
+	</head>
+	<body>
+		<div class="enter-book-container">
+			<p>
+				<label for="to-be-read">Might wanna read this book</label>
+				<input type="text" id="to-be-read" tabindex="1" value="">
+			</p>
+			<p>
+				<label for"book-category">
+					
+				</label>
+				<select id="book-category"></select>
+			</p>
+		</div>
+			
+		<div class="random-book-container">
+			<a class="grey-button random-generate">Show me a Book</a>
+		</div>
+	</body>
+</html>
